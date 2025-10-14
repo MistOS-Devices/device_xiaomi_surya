@@ -31,3 +31,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.2.0.SJGMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+#MistOS
+MISTOS_MAINTAINER := Zabuka_Zuzu
+MIST_BUILD_TYPE := OFFICIAL
+TARGET_DISABLE_EPPE := true
+TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
