@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/surya
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
 
+# Oneplus Dolby
+include vendor/oneplus/dolby/BoardConfigDolby.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
@@ -53,6 +56,12 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MANIFEST_FILE += hardware/qcom-caf/sm8150/media/conf_files/sm6150/c2_manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    vendor/oneplus/dolby/vintf/dolby_framework_compatibility_matrix.xml
+
+DEVICE_MANIFEST_FILE += \
+    vendor/oneplus/dolby/vintf/dolby_manifest.xml
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
