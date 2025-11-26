@@ -16,6 +16,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Gcam Go
+#$(call inherit-product, vendor/gcgop/config.mk)
+
 # crDroid build flag
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
@@ -39,4 +42,3 @@ TARGET_DISABLE_EPPE := true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
-

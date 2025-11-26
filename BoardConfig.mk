@@ -9,6 +9,8 @@ DEVICE_PATH := device/xiaomi/surya
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Oneplus Dolby
 include vendor/oneplus/dolby/BoardConfigDolby.mk
 

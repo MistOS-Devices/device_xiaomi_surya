@@ -16,6 +16,8 @@ $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 # Oneplus Dolby
 $(call inherit-product, vendor/oneplus/dolby/dolby.mk)
 
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
