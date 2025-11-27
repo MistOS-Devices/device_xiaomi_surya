@@ -13,8 +13,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
-# Oneplus Dolby
-$(call inherit-product, vendor/oneplus/dolby/dolby.mk)
+# MiuiCamera
+#$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
