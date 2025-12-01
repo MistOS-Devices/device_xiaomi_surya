@@ -49,3 +49,6 @@ ro.mist.front=20MP
 ro.mist.platform=SM7150-AC
 ro.mist.screen=6.67' IPS LCD
 ro.mist.device.name=Poco X3 | Poco X3 NFC
+
+#persist.mist.customlockscreen.enable=true
+#persist.avium.customlockscreen.enable=true
