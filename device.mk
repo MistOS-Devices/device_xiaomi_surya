@@ -14,8 +14,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
 # MiuiCamera
-#$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
-
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
