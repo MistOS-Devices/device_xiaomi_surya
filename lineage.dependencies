@@ -22,7 +22,7 @@
   {
     "repository": "Zabuka/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
-    "remote": "mist-codeberg",
+    "remote": "codeberg",
     "branch": "6.0"
   }
 ]
