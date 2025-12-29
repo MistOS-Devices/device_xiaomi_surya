@@ -3,22 +3,26 @@
     "repository": "crdroidandroid/android_kernel_xiaomi_surya",
     "target_path": "kernel/xiaomi/surya",
     "branch": "16.0",
+    "remote": "github-non-los",
     "depth": 1
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_xiaomi_surya",
     "target_path": "vendor/xiaomi/surya",
     "branch": "16.0",
+    "remote": "github-non-los",
     "depth": 1
   },
   {
     "repository": "Evolution-X-Devices/hardware_xiaomi",
     "target_path": "hardware/xiaomi",
+    "remote": "github-non-los",
     "branch": "bka"
   },
   {
     "repository": "Zabuka/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
+    "remote": "github-non-los",
     "branch": "6.0"
   }
 ]
