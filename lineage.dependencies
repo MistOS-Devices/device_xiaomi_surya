@@ -1,10 +1,4 @@
 [
-  {
-    "repository": "arshad-jamil33/device_xiaomi_surya",
-    "target_path": "device/xiaomi/surya",
-    "branch": "16.2",
-    "remote": "github-non-los"
- },
  {
     "repository": "arshad-jamil33/vendor_xiaomi_surya",
     "target_path": "vendor/xiaomi/surya",
