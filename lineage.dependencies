@@ -8,31 +8,31 @@
   {
     "repository": "arshad-jamil33/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "remote": "github-non-los",
+    "remote": "gitHub",
     "branch": "16.2"
   },
   {
-    "repository": "arshad-jamil33/hardware_dolby_moto",
+    "repository": "arshad-jamil33/hardware_dolby_sony",
     "target_path": "hardware/dolby",
     "branch": "16.2",
-    "remote": "github-non-los"
+    "remote": "gitHub"
   },
   {
     "repository": "arshad-jamil33/kernel_xiaomi_surya",
     "target_path": "kernel/xiaomi/surya",
     "branch": "16.2",
-    "remote": "github-non-los"
+    "remote": "gitHub"
   },
   {
     "repository": "arshad-jamil33/vendor_xiaomi_miuicamera-surya",
     "target_path": "vendor/xiaomi/miuicamera-surya",
     "branch": "16.2",
-    "remote": "github-non-los"
+    "remote": "gitHub"
   },
   {
     "repository": "arshad-jamil33/device_xiaomi_miuicamera-surya",
     "target_path": "device/xiaomi/miuicamera-surya",
     "branch": "16.2",
-    "remote": "github-non-los"
+    "remote": "gitHub"
   }
 ]
