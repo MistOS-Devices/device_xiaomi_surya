@@ -464,5 +464,5 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
-# Miui-Camera
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-surya/device.mk)
+# Gcam
+$(call inherit-product-if-exists, vendor/gcgop/config.mk)
