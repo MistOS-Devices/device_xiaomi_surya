@@ -42,20 +42,10 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/lib/hw/audio.primary.sm6150.so': blob_fixup()
-        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
-    'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
-        .add_needed('libpiex_shim.so'),
-    'vendor/lib64/libalRnBRT_GL_GBWRAPPER.so': blob_fixup()
-        .add_needed('libui_shim.so'),
-    'vendor/lib64/camera/components/com.vidhance.node.eis.so': blob_fixup()
-        .replace_needed('libui.so', 'libui-v34.so'),
-    'vendor/lib64/libgoodixhwfingerprint.so': blob_fixup()
-        .replace_needed('libvendor.goodix.hardware.biometrics.fingerprint@2.1.so', 'vendor.goodix.hardware.biometrics.fingerprint@2.1.so'),
-    ('vendor/lib64/hw/camera.qcom.so', 'vendor/lib64/libFaceDetectpp-0.5.2.so', 'vendor/lib64/libfacedet.so'): blob_fixup()
-        .replace_needed('libmegface.so', 'libfacedet.so')
-        .replace_needed('libMegviiFacepp-0.5.2.so', 'libFaceDetectpp-0.5.2.so')
-        .replace_needed('megviifacepp_0_5_2_model', 'facedetectpp_0_5_2_model'),
+    'system/framework/WfdCommon.jar': blob_fixup()
+        .apktool_patch('blob-patches/WfdCommon.patch'),
+    'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
     'vendor/lib64/libdpps.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
