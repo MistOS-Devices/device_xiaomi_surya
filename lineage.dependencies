@@ -18,7 +18,7 @@
     "remote": "github"
   },
   {
-    "repository": "arshad-jamil33/kernel_xiaomi_surya-msm",
+    "repository": "arshad-jamil33/kernel_xiaomi_surya-shinigami",
     "target_path": "kernel/xiaomi/surya",
     "branch": "16.2",
     "remote": "github"
