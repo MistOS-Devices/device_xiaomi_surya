@@ -45,3 +45,6 @@ TARGET_ENABLE_BLUR := true
 # Enable features
 TARGET_SUPPORTS_QUICK_TAP := true
 BYPASS_CHARGE_SUPPORTED := true
+
+# Flags
+TARGET_INCLUDES_OEM_App := true
