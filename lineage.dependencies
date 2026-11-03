@@ -9,24 +9,24 @@
     "repository": "arshad-jamil33/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "github",
-    "branch": "16.2"
+    "branch": "17"
   },
   {
-    "repository": "arshad-jamil33/hardware_dolby_hyper",
+    "repository": "arshad-jamil33/hardware_dolby-sony",
     "target_path": "hardware/dolby",
-    "branch": "16.2",
+    "branch": "17",
     "remote": "github"
   },
   {
-    "repository": "arshad-jamil33/kernel_xiaomi_surya-shinigami",
+    "repository": "arshad-jamil33/msm-4.14",
     "target_path": "kernel/xiaomi/surya",
-    "branch": "16.2",
+    "branch": "17",
     "remote": "github"
   },
   {
     "repository": "arshad-jamil33/vendor_gcamgo",
     "target_path": "vendor/gcgop",
-    "branch": "qpr2",
+    "branch": "17",
     "remote": "github"
   }
 ]
